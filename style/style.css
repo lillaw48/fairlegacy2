@@ -1,17 +1,9 @@
-/*Default*/
+/*critical and element styles*/
 html {
-    width: 80%;
-    height: 100%;
-    min-height: 100%;
-    margin: 0 auto;
-    font-size: 16px;
-    background-color: #FFFFFF;
 }
 body {
-    height: 100%;
-    min-height: 100%;
-    line-height: 2;
     background-color: #FFFFFF;
+    margin: 0;
 }
 input[type=button], button {
     cursor: pointer;
@@ -19,41 +11,18 @@ input[type=button], button {
     border-radius: 8px;
     border-width: 1px;
 }
-/*IDs*/
 span{
     padding: 10px;
 }
-#prevBtn{
-    float:left;  
+
+/*header*/
+header{
+
 }
-#nextBtn{
-    float:right;  
-}
-#pagination{
-    text-align: center;
-}
-#header{
+
+/*swede view*/
+.swede-view{
+    height: 100%;
+    position: absolute;
     width: 100%;
-    background-color: #199CFF;
-    padding: 5px;
-    border-style: solid;
-    border-color: #0062AD;  
-    border-radius: 8px;
-    border-width: 1px;
-    text-align: center;
-    margin: 10px;
-    display:inline-grid;
-}
-a:link, a:visited, a:hover, a:active, #headerText{
-    -webkit-text-stroke: 2px #4b4439;
-    color:#6d6d6d;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 60px;
-}
-/*Classes*/
-.mainDivs{
-    background-color: #d2d2d2;
-    padding: 5px;
-    border-radius: 5px;
-    border-width: 1px;
 }
