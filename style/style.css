@@ -105,3 +105,33 @@ nav a:hover::after{
     width: 100%;
     z-index: -1;
 }
+
+/*loading overlay*/
+.overlay{
+    align-items: center;
+    background: #f0f8ffe8;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.overlay img{
+}
+
+.loader {
+    border: 8px solid #9c9c9cb2;
+    border-top: 8px solid #23a337;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
