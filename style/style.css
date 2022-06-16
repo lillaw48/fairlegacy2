@@ -69,23 +69,31 @@ nav{
     flex-direction: column;
     gap: 5px;
     justify-content: space-evenly;
-    margin-left: 1rem;
     padding: 1rem 0;
 }
 nav span{
     color: #fff;
     padding: 0;
 }
+nav a{
+    padding-left: 0.8rem;
+}
 nav a:hover::before{
     content: '>';
     padding-right: 0.25rem;
+    position: absolute;
+    left: 0;
 }
 nav a:hover::after{
     content: '<';
     padding-left: 0.25rem;
+    position: absolute;
 }
 /* medium */
 @media (min-width: 768px) {
+    nav{
+        margin-left: 1rem;
+    }
     nav a{
         font-size: 1.2rem;
     }
